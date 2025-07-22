@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer type="module"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="sidebar">
+        <form action="index.php" method="POST" id="form">
+
+            <label for="bookName">Book Name:</label>
+            <input type="text" id="bookName" placeholder="Book Name" value="The Lord of the Rings" required><br>
+
+            <label for="authorName">Author Name:</label>
+            <input type="text" id="authorName" placeholder="Author Name" value="John Ronald Reuel Tolkien" required><br>
+
+            <label for="pagesRead">Pages Read:</label>
+            <input type="number" id="pagesRead" value="123" required><br>
+
+            <label for="username">Total Pages:</label>
+            <input type="number" id="totalPages" value="1077" required><br>
+
+            <label for="username">Score:</label>
+            <input type="number" id="score" value="4" required><br>
+
+
+
+            <button id="reset">Reset</button>
+            <br>
+            <input type="submit" id="submit">
+        </form>
+
+
+    </div>
+    <div id="bookshelf">
+    </div>
+    <div class="sidebar">
+    </div>
+</body>
+</html>
